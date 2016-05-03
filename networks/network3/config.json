@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "CS249: Spring 2016"
+  },
+  "text": {
+    "more": "I took all the Ruhlman abstracts from 1997-2015, and looked at word-cooccurrence for the top 10,000 words. Edges represent two words that occurred together; larger nodes occur in more abstracts.\nI was interested in which words occur together across subject areas, and node colors (clustering) are an attempt at this.",
+    "intro": "For 1997-2015",
+    "title": "Ruhlman Abstracts- Word Co-Occurrence Graph"
+  },
+  "legend": {
+    "edgeLabel": "co-occurence",
+    "colorLabel": "cluster group (auto-detected)",
+    "nodeLabel": "word"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Modularity Class",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": "Label"
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 2,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 5,
+      "maxNodeSize": 10
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
