@@ -1,3 +1,10 @@
+"""
+Part 3 of the Ruhlman Project: Topic Modeling of the abstracts
+
+Sorry that this is not in ipynb format- I was working with it as a script!
+"""
+
+#Megan O'Keefe. Last update 5/3/16
 from __future__ import print_function
 import numpy as np
 import pandas as pd
